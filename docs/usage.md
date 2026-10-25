@@ -72,7 +72,7 @@ Anywhere in the app, including in `canAccessPanel()` or a Filament policy:
 use Postiefs\Sso\Facades\Sso;
 
 Sso::active();           // signed in through the portal
-Sso::hasRole('editor');  // the portal's roles; its `admin` role passes everything
+Sso::hasRole('editor');  // the portal's claims; authorise with your app's own roles (e.g. Spatie)
 Sso::secondsRemaining();
 ```
 
