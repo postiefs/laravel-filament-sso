@@ -4,10 +4,6 @@ All notable changes to this package are documented here, newest first.
 
 ## [Unreleased]
 
-## [1.0.1]
-
-- Docs: install through GitHub repositories, links to the core docs, role guidance (authorise with the app's own roles).
-
 ## [1.0.0]
 
 - `SsoPlugin` for Filament 3, 4 and 5 panels on Laravel 11, 12 and 13.
